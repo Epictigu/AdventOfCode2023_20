@@ -9,12 +9,20 @@ import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Loads the input from the given input file in the resources archive with the name defined in the {@link #INPUT_FILE_NAME file name variable}.
+ */
 public class InputLoader {
 
     private static final String ERROR_INPUT_FILE_NOT_FOUND = "The input file could not be found.";
 
     private static final String INPUT_FILE_NAME = "input.txt";
 
+    /**
+     * Loads all lines from the given input file. The file must exist, otherwise the rest of the program wouldn't work.
+     *
+     * @return the list of lines found in the input file
+     */
     @Nonnull
     public List<String> loadInputs() {
         InputStream inputStream = fetchInputStream();

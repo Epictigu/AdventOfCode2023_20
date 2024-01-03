@@ -4,9 +4,9 @@ import de.fhswf.aoc20.pulse.PulseSignal;
 
 import javax.annotation.Nonnull;
 
-public class InvalidModule extends Module {
+public class UnknownModule extends Module {
 
-    public InvalidModule(@Nonnull String token) {
+    public UnknownModule(@Nonnull String token) {
         super(token);
     }
 

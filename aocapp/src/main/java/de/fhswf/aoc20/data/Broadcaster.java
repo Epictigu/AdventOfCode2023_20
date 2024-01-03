@@ -4,6 +4,9 @@ import de.fhswf.aoc20.pulse.PulseSignal;
 
 import javax.annotation.Nonnull;
 
+/**
+ * The broadcaster module which is meant to represent the start point, from which the pulses are sent.
+ */
 public class Broadcaster extends Module {
 
     public Broadcaster(@Nonnull String token) {

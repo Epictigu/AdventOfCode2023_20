@@ -12,6 +12,9 @@ import lombok.extern.java.Log;
 import javax.annotation.Nullable;
 import java.util.List;
 
+/**
+ * The actual app, which connects the module loading, as well as the start of the two tasks.
+ */
 @Log
 public class AOCApp {
 

@@ -1,5 +1,8 @@
 package de.fhswf.aoc20.pulse;
 
+/**
+ * The pulse type, to show whether a pulse is either low or high.
+ */
 public enum PulseType {
 
     LOW,
