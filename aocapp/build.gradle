@@ -32,5 +32,11 @@ dependencies {
 
 application {
     // Define the main class for the application.
-    mainClass = 'de.fhswf.aoc20.App'
+    mainClass = 'de.fhswf.aoc20.AOCApp'
+}
+
+jar {
+    manifest {
+        attributes 'Main-Class': application.mainClass
+    }
 }
